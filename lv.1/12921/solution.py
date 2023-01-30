@@ -2,7 +2,6 @@
 def solution(n): # n = 100
     return len(get_prime_list(n))
 
-
 def get_prime_list(n):
     if n == 0:
         return []
